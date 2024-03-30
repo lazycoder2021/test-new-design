@@ -1,0 +1,393 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+:root {
+    --heading-font: "Lato", sans-serif;
+    --page-font : "Nobile", sans-serif;
+}
+p {
+    font-size: 15.6px;
+    font-weight: 200;
+    font-family: var(--page-font);
+    letter-spacing: .5px;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+b {
+    font-weight: 800 !important;
+}
+html {
+    scroll-behavior: smooth;
+}
+.banner-section {
+    padding: 0px !important;
+    background-color: #FBFBFD !important;
+    position: relative;
+}
+.navbar-1 {
+    z-index: 100 !important;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 10px !important;
+    position: relative !important;
+}
+.site-log {
+    text-decoration: none !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+.logo-text {
+    color: #2C9D30 !important;
+    font-size: 50px;
+    font-weight: 900 !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+.logo-text span {
+    font-weight: 500;
+    padding-left: 10px;
+    color: #000000 !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+.next-ntn {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.two-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.two-btns a {
+    border: none;
+    padding: 9px 25px 9px 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    text-decoration: none;
+}
+.btn-1 {
+    background-color: #eeeeee!important;
+    color: #000;
+}
+.btn-2 {
+    color: white !important;
+    background-color: #04af2f !important;
+}
+.contact-page li {
+    list-style: none;
+}
+.contact-page li a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #000000;
+}
+.contact-page li a:hover {
+    border: #000000 !important;
+    padding-bottom: 3px !important;
+}
+.Beginners-section {
+    margin-top: 5rem !important;
+}
+.beginners-box {
+    background-color: #000000 !important;
+    padding: 40px;
+    border-radius: 10px;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+.beginners-box p {
+    color: white;
+    opacity: .9;
+    font-size: 17px;
+    line-height: 30px;
+    font-family: var(--page-font);
+}
+.Beginners-section a {
+    text-decoration: none;
+    color: #000000;
+}
+.Beginners-section a:hover {
+    color: #000000;
+}
+.Beginners-section a  h1 {
+    font-weight: 900 !important;
+    padding: 30px;
+    font-family: var(--heading-font);
+}
+.Beginners-section h1 span {
+    color: #2C9D30 !important;
+    font-family: var(--heading-font);
+}
+.beginners-box-second {
+    border: 3px solid black;
+    background-color: #EEEEEE !important;
+    box-shadow: -12px 12px 0px #031926 !important;
+}
+.beginners-box-second p {
+    color: #000000;
+}
+.footer-section {
+    background-color: #000000;
+    height: 300px;
+    margin-top: 5rem;
+    padding: 0px !important;
+}
+.footer-box {
+    padding: 30px;
+}
+
+
+/* m365 bening style */
+
+.menu-icon {
+    font-size: 26px;
+    position: absolute;
+    top: 30px !important;
+    display: none !important;
+}
+.bg-h1st {
+    font-style: var(--heading-font);
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+.bg-h2st {
+    font-style: var(--heading-font);
+    font-weight: 700;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+.bg-h3st {
+    font-style: var(--heading-font);
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.bg-h4st {
+    font-style: var(--heading-font);
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.bg-h5st {
+    font-style: var(--heading-font);
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.bg-pst {
+    font-size: 15.6px;
+    font-weight: 200;
+    font-family: var(--page-font);
+}
+.headspan {
+    font-style: var(--heading-font);
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.bg-ulst li a {
+    font-size: 17px;
+    line-height: 30px;
+}
+.link-li {
+    font-size: 15.6px;
+    font-weight: 200;
+    font-family: var(--page-font);
+    letter-spacing: .5px;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+.img-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.side-slider-box {
+    position: fixed;
+    height: 100%;
+    top: 130px;
+    left: 0px;
+    padding-bottom: 4rem;
+    background-color: var(--clr-neutral-50);
+    align-self: start;
+    height: calc(100svh - 100px);
+    position: sticky;
+    overflow: auto;
+    padding-left: 20px !important;
+    padding-top: 70px !important;
+}
+.icons-scroll {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: fixed !important;
+    cursor: pointer;
+}
+.mr {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+.side-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+.side-ul li {
+    border-bottom: 1px solid #eeeeee;
+    list-style: none;
+    padding-bottom: 0.65rem !important; 
+}
+.slider-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px !important;
+    font-weight: 100;
+    padding: 10px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    width: 100%;
+    border-radius: 100vmax;
+    padding: 0.3rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.slider-link:hover {
+    background-color: #cfe9d0;
+}
+.menu {
+    transform: translateX(-100%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 90%;
+    height: 90vh;
+    padding-right: 70px !important;
+    padding-top: 30px;
+    padding-left: 0px !important;
+    background-color: #FBFBFD !important;
+    overflow: scroll;
+}
+.close-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #ddd8d8;
+}
+.close-icon span {
+    font-family: var(--heading-font);
+    font-size: 15px;
+    font-weight: 900;
+}
+.hide {
+    transform: translateX(-100%);
+    transition: all .5s;
+}
+.move-menu {
+    transform: translateX(0%);
+    transition: all .5s;
+}
+.main-page {
+    position: relative;
+}
+.close-hide {
+    transform: translateX(-100%);
+    transition: all .5s;
+}
+
+/* table style */
+thead {
+    border: 2px solid black !important;
+    padding: 20px !important;
+}
+tr{
+    border: 1px solid black !important;
+    padding: 20px !important;
+}
+tr td {
+    border: 1px solid black !important;
+    padding: 10px !important;
+}
+
+@media only screen and (max-width: 500px){
+.logo-mq {
+    margin-left: 60px;
+}
+.logo-text {
+        font-size: 32px;
+}
+.navbar-1 {
+    padding: 20px !important;
+}
+.beginners-box {
+    padding: 20px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+.beginners-box p {
+    font-size: 15px;
+}
+.Beginners-section {
+    margin-top: 1rem !important;
+}
+.Beginners-section h1 {
+    padding: 24px;
+}
+.beginners-box p {
+    font-size: 15.5px;
+}
+.bg-h1st {
+    font-size: 26px;
+    padding: 2px;
+}
+.bg-pst {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.bg-ulst {
+    margin-left: 15px;
+}
+.bg-ulst li a {
+    font-size: 15px;
+}
+.hide-div {
+    display: none;
+}
+.menu-icon {
+    display: block !important;
+}
+.media-size-table thead tr td {
+    font-size: 12px !important;
+}
+.media-size-table tbody tr td {
+    font-size: 12px !important;
+}
+}
